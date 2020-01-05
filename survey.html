@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--main div-->
+<div id="main">
+<head>
+    <title>Star National Bank Survey Form</title>
+    <meta charset ="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!--take this part out when placed into codepen-->
+    <link rel="stylesheet" href="survey_style.css">
+</head>
+<!-- this is where my body will go-->
+<body>
+    <header><h1 id = "title">Star National Bank Survey Form</h1></header><br>
+    <div id="description">A brief Customer Service Rating Survey</div>
+
+    <!--my forms for the survey will go here-->
+    <div id="survey-form">
+    <form>
+    Name<br>
+    <input id="name" name="name" type="text" value="Enter your name here..."><br><br>
+    Email<br> <!--validation error needed-->
+    <input id="email" name="email" type="email" value="Enter your email here..."><br><br>
+    Age<br> <!--validation error needed-->
+    <input id="number" name="age" type="number" value="Enter your age here..."><br><br>
+
+    <div id="radio-btn">
+    Would you recommend Star National Bank to your friends?<br>
+    <input name="radio" type="radio" value="Yes" checked>Yes<br>
+    <input name="radio" type="radio" value="No">No<br><br>
+    </div>
+    <!--need drop down form-->
+    Please select whether you are one of our customers or brand partners.<br>
+    <select>
+        <option value="customer">Customer</option>
+        <option value="brand">Brand Partner</option>
+    </select><br><br>
+
+    Do you have any additional comments or suggestions for Star National Bank?<br>
+    <textarea rows="5" columns="100">Enter comments here...</textarea><br>
+    <input id="submit" name="submit-btn" type="submit" value="Submit">
+
+    </form>
+    </div>
+    <!--my forms end here-->
+</body>
+</html>
+</div>
