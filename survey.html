@@ -11,26 +11,24 @@
 <!-- this is where my body will go-->
 <body>
     <header><h1 id = "title">Star National Bank Survey Form</h1></header><br>
-    <div id="description">A brief Customer Service Rating Survey</div>
+  <p id="description">A brief Customer Service Rating Survey</p>
 
     <!--my forms for the survey will go here-->
-    <div id="survey-form">
-    <form>
-
-    <div id="name-label">
+    <form id="survey-form">
+    <label id="name-label">
     Name<br>
     <input id="name" name="name" type="text" required placeholder="Enter your name here..."><br><br>
-    </div>
+    </label>
 
-    <div id="email-label">
+    <label id="email-label">
     Email<br> <!--validation error needed-->
     <input id="email" name="email" type="email" required placeholder="Enter your email here..."><br><br>
-    </div>
+    </label>
 
-    <div id="number-label">
+    <label id="number-label">
     Age<br>
     <input id="number" name="age" type="number" placeholder="Enter your age here..." min="16" max="120"><br><br>
-    </div>
+    </label>
 
     <div id="radio-btn">
     Would you recommend Star National Bank to your friends?<br>
@@ -65,7 +63,7 @@
     <input id="submit" name="submit-btn" type="submit" value="Submit">
 
     </form>
-    </div>
+    
     <!--my forms end here-->
 </body>
 </html>
