@@ -16,24 +16,38 @@
     <!--my forms for the survey will go here-->
     <div id="survey-form">
     <form>
+
+    <div id="name-label">
     Name<br>
-    <input id="name" name="name" type="text" value="Enter your name here..."><br><br>
+    <input id="name" name="name" type="text" placeholder="Enter your name here..."><br><br>
+    </div>
+
+    <div id="email-label">
     Email<br> <!--validation error needed-->
-    <input id="email" name="email" type="email" value="Enter your email here..."><br><br>
+    <input id="email" name="email" type="email" placeholder="Enter your email here..."><br><br>
+    </div>
+
+    <div id="number-label">
     Age<br> <!--validation error needed-->
-    <input id="number" name="age" type="number" value="Enter your age here..."><br><br>
+    <input id="number" name="age" type="number" placeholder="Enter your age here..." min="16" max="120"><br><br>
+    </div>
 
     <div id="radio-btn">
     Would you recommend Star National Bank to your friends?<br>
     <input name="radio" type="radio" value="Yes" checked>Yes<br>
-    <input name="radio" type="radio" value="No">No<br><br>
-    </div>
+    <input name="radio" type="radio" value="No">No</div>
+    <br><br>
+    
+
     <!--dropdown form-->
+    <div id="dropdown">
     Please select whether you are one of our customers or brand partners.<br>
     <select>
         <option value="customer">Customer</option>
         <option value="brand">Brand Partner</option>
-    </select><br><br>
+    </select>
+    </div>
+    <br><br>
 
     Do you have any additional comments or suggestions for Star National Bank?<br>
     <textarea rows="5" columns="100">Enter comments here...</textarea><br>
